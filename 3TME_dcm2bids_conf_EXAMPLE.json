@@ -1,0 +1,201 @@
+{
+    "descriptions": [
+
+	    {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-restSE",
+            "criteria": {
+	            "SeriesDescription": "rfMRI_REST_AP_15MIN",
+	            "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "MOSAIC"]
+            }
+        },
+	    {
+            "dataType": "func",
+            "modalityLabel": "sbref",
+            "customLabels": "task-restSE",
+            "criteria": {
+	            "SeriesDescription": "rfMRI_REST_AP_15MIN_SBRef",
+	            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            }
+        },
+	    {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-restSE",
+            "criteria": {
+	            "SeriesDescription": "rfMRI_REST_AP",
+		    "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "NORM", "MOSAIC"]
+            }
+        },
+	    {
+            "dataType": "func",
+            "modalityLabel": "sbref",
+            "customLabels": "task-restSE",
+            "criteria": {
+	            "SeriesDescription": "rfMRI_REST_AP_SBRef",
+	            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM", "MOSAIC"]
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "echo-1_bold",
+            "customLabels": "task-restME",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN", 	
+		"EchoNumber": 1,
+		"SidecarFilename": "*e1.json"
+            }
+        },
+		 {
+            "dataType": "func",
+            "modalityLabel": "echo-2_bold",
+            "customLabels": "task-restME",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN",
+		"EchoNumber": 2,
+		"SidecarFilename": "*e2.json"
+            }
+        },
+		 {
+            "dataType": "func",
+            "modalityLabel": "echo-3_bold",
+            "customLabels": "task-restME",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN",
+				"EchoNumber": 3,
+		"SidecarFilename": "*e3.json"
+            }
+        },
+		 {
+            "dataType": "func",
+            "modalityLabel": "echo-4_bold",
+            "customLabels": "task-restME",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN",
+		"EchoNumber": 4,
+		"SidecarFilename": "*e4.json"
+            }
+        },
+		 {
+            "dataType": "func",
+            "modalityLabel": "echo-5_bold",
+            "customLabels": "task-restME",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN",
+		"EchoNumber": 5,
+		"SidecarFilename": "*e5.json"
+            }
+        },
+		{
+            "dataType": "func",
+            "modalityLabel": "sbref",
+            "customLabels": "task-restME",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN_SBRef",
+		"EchoNumber": 1,
+		"SidecarFilename": "*e1.json"
+            }
+        },
+	    {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-restSEph",
+            "criteria": {
+	            "SeriesDescription": "rfMRI_REST_AP_15MIN",
+		    "SidecarFilename": "*_ph.json"
+            }
+        },
+	    {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-restSEph",
+            "criteria": {
+	            "SeriesDescription": "rfMRI_REST_AP",
+		    "SidecarFilename": "*_ph.json"
+            }
+        },
+
+        {
+            "dataType": "func",
+            "modalityLabel": "echo-1_bold",
+            "customLabels": "task-restMEph",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN",
+		"EchoNumber": 1,
+		"SidecarFilename": "*e1_ph.json"
+            }
+        },
+		 {
+            "dataType": "func",
+            "modalityLabel": "echo-2_bold",
+            "customLabels": "task-restMEph",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN",
+		"EchoNumber": 2,
+		"SidecarFilename": "*e2_ph.json"
+            }
+        },
+		 {
+            "dataType": "func",
+            "modalityLabel": "echo-3_bold",
+            "customLabels": "task-restMEph",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN",
+		"EchoNumber": 3,
+		"SidecarFilename": "*e3_ph.json"
+            }
+        },
+		 {
+            "dataType": "func",
+            "modalityLabel": "echo-4_bold",
+            "customLabels": "task-restMEph",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN",
+		"EchoNumber": 4,
+		"SidecarFilename": "*e4_ph.json"
+            }
+        },
+		 {
+            "dataType": "func",
+            "modalityLabel": "echo-5_bold",
+            "customLabels": "task-restMEph",
+            "criteria": {
+                "SeriesDescription": "rest_ep2d_bold_ME_15MIN",
+		"EchoNumber": 5,
+		"SidecarFilename": "*e5_ph.json"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "criteria": {
+                "SeriesDescription": "T2w_SPC"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "T1w_MPR"
+            }
+        },
+        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-AP",
+            "criteria": {
+                "SeriesDescription": "SpinEchoFieldMap_AP"
+            }
+        },
+		        {
+            "dataType": "fmap",
+            "modalityLabel": "epi",
+            "customLabels": "dir-PA",
+            "criteria": {
+                "SeriesDescription": "SpinEchoFieldMap_PA"
+            }
+        }
+
+    ]
+}

@@ -1,0 +1,16 @@
+BIDS NORDIC wrapper
+
+purpose: take an input BIDS func directory, apply NORDIC denoising and trim noise volumes 
+
+usage:
+1) Convert source data to BIDS with Dcm2bids. BIDS task names for the converted files are expected to be as follows:
+
+"task-restSE" and "task-restSEph", respectively for single-echo magnitude and phase BOLD timeseries
+"task-restME" and "task-restMEph" for multi-echo
+
+(An example dcm2bids config file which outputs the expected task names is in "dcm2bids_conf_examples")
+
+2) Run bids_nordic_wrapper.sh (arg1= path to func dir, arg2= number of noise volumes at end of each run)
+
+3) [Optional] Run nordic_cleanup.sh to remove logs and other files not used in further processing
+ 
